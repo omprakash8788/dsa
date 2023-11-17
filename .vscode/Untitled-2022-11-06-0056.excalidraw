@@ -1,0 +1,46 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "type": "text",
+      "version": 394,
+      "versionNonce": 365309227,
+      "isDeleted": false,
+      "id": "N8VaIsW0JqSLmyx1e0-Jb",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 330,
+      "y": 114,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 771,
+      "height": 249,
+      "seed": 1064852503,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "boundElements": [],
+      "updated": 1669736345628,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 2,
+      "text": "Q 1. Print arrays  , you have to traverse the array, and print each element on a new line\n         we have given array is .\n        array=[1,2,3,4,5]\n        n=5;\nsol...                                              DryRun\n let n=5;\nlet array=[1,2,3,4,5]\n\nfor(let i=0; i<n; i++){\nconsole.log(array[i])\n}",
+      "baseline": 245,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Q 1. Print arrays  , you have to traverse the array, and print each element on a new line\n         we have given array is .\n        array=[1,2,3,4,5]\n        n=5;\nsol...                                              DryRun\n let n=5;\nlet array=[1,2,3,4,5]\n\nfor(let i=0; i<n; i++){\nconsole.log(array[i])\n}"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
