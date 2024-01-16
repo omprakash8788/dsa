@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Animation</title>
+    <style>
+        body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <canvas id="cartoonCanvas" width="800" height="600"></canvas>
+</body>
+</html>
+<script>
+    // Get the canvas element and its context
+const canvas = document.getElementById('cartoonCanvas');
+const ctx = canvas.getContext('2d');
+
+// Define your cartoon character properties
+const character = {
+    x: 100,
+    y: 100,
+    width: 50,
+    height: 50,
+    color: 'blue',
+    speed: 2,
+};
+
+// Create an animation loop
+function animate() {
+    // Clear the canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw your cartoon character
+    ctx.fillStyle = character.color;
+    ctx.fillRect(character.x, character.y, character.width, character.height);
+
+    // Update character position or any other animations
+    character.x += character.speed;
+
+    // Request the next animation frame
+    requestAnimationFrame(animate);
+}
+
+// Start the animation loop
+animate();
+
+</script>
